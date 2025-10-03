@@ -1,1 +1,3 @@
 # Sequence-Equation--Algo
+
+This C++ code solve the Permutation Equation problem, where for each value x from 1 to n, the goal is to find an index y such that p[p[y]] = x, and return all such y values in order. The main function reads input for the array size n and the permutation array p, processes the strings using helper functions (ltrim, rtrim, and split), and converts them into integers. It then calls the permutationEquation function (which is currently unimplemented) to compute the result, which is written to a file line by line. The helper functions are used to trim whitespace and split input strings for clean parsing.
